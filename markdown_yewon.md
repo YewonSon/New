@@ -14,7 +14,7 @@
     * 출력 $\hat{y}$를 계산한다. 즉 $\hat{y}=h(w^{T}x)$
     * 가중치 $w_{j}$를 조정한다. 즉 $w_{j}:=w_{j}+\Delta w_{j}$  
 <br>   
-<p><img src="https://github.com/idebtor/KMOOC-ML/blob/master/ipynb/images/joyai/person.png?raw=true" width=150 title="크기와 위치 조정"></p>
+<p align="center"><img src="https://github.com/idebtor/KMOOC-ML/blob/master/ipynb/images/joyai/person.png?raw=true" width=150 title="크기와 위치 조정"></p>
 <p>그림 4: 마크다운 문서 작성하기 </p>
 
 아달라인에서는 활성화 함수의 반환하는 값(사실상 z와 같음)과 클래스 레이블과의 오차가 최소가 되도록 가중치를 조정합니다.이를 위하여 최소제곱법 <sup>_Sum of Squared Errors(SSE)_</sup>을 이용한 비용함수<sup>_Cost Function_</sup>$J(w)$를 다음과 같이 정의합니다. 이 값을 최소가 되도록 가중치를 조정하는 것이 아달라인 알고리즘의 핵심입니다.  
